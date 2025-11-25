@@ -22,6 +22,7 @@
 		"format": "prettier --config .prettierrc.js --write .",
 		"lint": "eslint ./src/",
 		"lint:fix": "eslint ./src/ --fix"
+		"start": "node lib/index.cjs"
 	},
 	"devDependencies": {
 		"@eslint/eslintrc": "^3.3.0",
